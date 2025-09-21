@@ -1,0 +1,30 @@
+[33mcommit 1661598eb1ddfe5c4ae5189b5c59f3108da9e017[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: User <user@example.com>
+Date:   Sat Sep 20 22:01:52 2025 +0300
+
+    🔢 Updated numbers to English format and enhanced currency selector
+    
+    ✨ Number Format Changes:
+    - Changed all number formatting from Arabic (ar-IQ) to English (en-US)
+    - Currency converter now displays results in English numerals
+    - Exchange rates display in English format throughout
+    
+    🏴 Currency Selector Enhancement:
+    - Simplified currency dropdown to show only flag + currency code (e.g., 🇺🇸 USD)
+    - Removed verbose country names from dropdown options
+    - Enhanced SelectValue to display flag + code format in trigger
+    - Improved mobile responsiveness of currency selectors
+    
+    🎯 User Experience:
+    - Cleaner, more international currency selection interface
+    - Consistent English number formatting across all components
+    - Better readability for international users
+    - Maintained Arabic text for labels while using English numerals
+    
+    📱 Technical Improvements:
+    - Updated toLocaleString() calls to use 'en-US' locale
+    - Enhanced SelectValue components with custom display format
+    - Maintained responsive design for currency selectors
+    - Consistent styling across both currency selection dropdowns
+
+components/currency-converter.tsx
